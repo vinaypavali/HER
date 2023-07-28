@@ -28,7 +28,7 @@ def takeCommand():
     try:
         print("Recognizing...")
         user_input = recognizer.recognize_google(audio)
-        print("Vinay:", user_input)
+        print("Neelesh:", user_input)
         return user_input if user_input else ""
     except sr.UnknownValueError:
         print("Could not understand audio.")
